@@ -1,0 +1,36 @@
+body{
+    background-image: url('./img/blurry-gradient-haikei.svg');
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: sans-serif;
+}
+
+
+main{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+
+div{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;    
+}
+
+a{
+    text-decoration: none;
+    background-color: antiquewhite;
+    padding: 12px 18px;
+    color: #000;
+    border-radius: 5px;
+}
